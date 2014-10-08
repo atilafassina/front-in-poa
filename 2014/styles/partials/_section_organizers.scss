@@ -7,6 +7,14 @@
   &:nth-child(3) {
     margin-top: 10%;
   }
+
+  .speaker-photo-container {
+    max-height: 6rem;
+
+    @media(min-width: $minor-viewport) {
+      max-height: 10rem;
+    }
+  }
 }
 .organizer-name {
   font-size: rem(16px);
