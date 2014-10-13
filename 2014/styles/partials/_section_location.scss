@@ -25,9 +25,13 @@
   position: relative;
 }
 .address-data {
-  padding: 2.5em 2em 4.5em 2em;
+  padding: 8% 5%;
   position: relative;
   z-index: 1;
+  font-size: rem(14px);
+  @media screen and (min-width: $minor-viewport) {
+    font-size: rem(16px);
+  }
 }
 .address-background {
   position: absolute;
