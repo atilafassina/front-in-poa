@@ -1,6 +1,5 @@
 .organizer-item {
   width: 20%;
-
   &:nth-child(2) {
     margin-top: 5%;
   }
@@ -19,7 +18,6 @@
 .organizer-name {
   font-size: rem(16px);
   margin-bottom: 0;
-
   @media screen and (min-width: $minor-viewport) {
     font-size: rem(18px);
   }
